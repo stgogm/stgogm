@@ -1,16 +1,33 @@
-### Hi there 👋
+```
 
-<!--
-**stgogm/stgogm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+                                                            
+                                                            
+                                                            
+                          ``````                            
+                      ``...`````````                        
+                    `.......``````````                      
+                  `..---.....```````````                    
+                  .-------:::--.:.:/+oo:.                   
+                 `.--/osyhhhhhy+:.oysso/:.                  
+                 ..+so+oshdmdhy+-.oso++o:.  -               
+                 .:/+oyyosyssss/.`--:-/++. `-               
+                 /::///////////:-```...`````                
+               --/--::://::://::--.```..``                  
+               yo+--:///:::/ooshyyys:-.````                 
+               .+yo::///::/++smmmmhs--..```                 
+                .+y+/:::/+sydmddddyoy+:-``.                 
+                 :dds+//sdmmdhyyyyooshy+../                 
+                 :dmdhysymhsoosyhyo-./hs:+/                 
+                 `odmmNNNmhyo+oydy:--+yhds-                 
+                  `odNmmhhsoyoyysss+//+sm/`                 
+                .+ddhmddhs+sdhmdhhhys+:/hho.                
+             ./sNNNm+dmdhyshmmNNmmmddo+/yNNNs`              
+          .odNNNNNNd+ohmdhdmmNNNNNNdhoyymNNNNd`             
+         -NNNNNNNNNmsssyhmmmmNNNNNdssmNNNNNNNNs             
+```````  hNNNNNNNNNNhyysyhdddddhy+/omNNNNNNNNNmh+::-.       
+```````-omNNNNNNNNNNmddhyyyhhdhyo+odNNNNNNNNNNNNNNNNNmdhmdys
+yyhhhdmNNNNNNNNNNNNNNdddhyysydhs++yNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNdhyyys++sysydNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNmdhhhhdmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+```

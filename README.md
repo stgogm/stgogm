@@ -1,6 +1,6 @@
 <div align="center">
 	<br>
-	<a href="https://github.com/stgogm/stgogm/blame/master/header.svg">
+	<a href="https://raw.githubusercontent.com/stgogm/stgogm/master/header.svg">
 		<img src="header.svg" width="800" height="300">
 	</a>
 	<br>

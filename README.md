@@ -7,6 +7,6 @@
 	<small>Inspired by: <a href="https://github.com/sindresorhus/css-in-readme-like-wat">https://github.com/sindresorhus/css-in-readme-like-wat</a></small>
 </div>
 
-<a href="https://dev.to/stgogm">
+<a href="https://dev.to/stgogm" target="_blank">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Santiago G. Marín's DEV Community Profile" height="30" width="30">
 </a>

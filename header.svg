@@ -30,7 +30,7 @@
 				.closure::after {
 				  content: '';
 				  position: absolute;
-				  height: 2em;
+				  height: 2.2em;
 				  width: 5.5em;
 				  background: #282c34;
 				  transform: translate(-6.5em, 1.1em);

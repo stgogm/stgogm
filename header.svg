@@ -34,7 +34,6 @@
 				  width: 5.5em;
 				  background: #282c34;
 				  transform: translate(-6.5em, 1.1em);
-				  border: 1px solid red;
 				}
 				
 				.closure::before {
@@ -44,7 +43,6 @@
 				  width: 5.5em;
 				  background: #282c34;
 				  transform: translate(-5em, -2em);
-				  border: 1px solid blue; 
 				}
 				
 				.en {

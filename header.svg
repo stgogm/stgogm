@@ -1,51 +1,87 @@
 <svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
+		<div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;">
 			<style>
-				@keyframes rotate {
-					0% {
-						transform: rotate3d(0.5, 1, -0.5, 30deg);
-					}
-					100% {
-						transform: rotate3d(-0.5, -1, 0.5, 30deg);
-					}
-				}
-
-				.container {
-					font-family: monospace;
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: center;
-					margin: 0;
-					width: 100%;
-					height: 300px;
-					background: transparent;
-					color: grey;
-					text-align: center;
-				}
-
-				h1 {
-					font-size: 50px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-					text-transform: uppercase;
-					text-shadow:
-						0 1px 0 #555555,
-						0 2px 0 #555555,
-						0 3px 0 #555555,
-						0 4px 0 #555555,
-						0 12px 5px rgba(0, 0, 0, 0.1);
-					animation: rotate ease-in-out 1s infinite alternate;
+				section {
+				  background: #282c34;
+				  font-size: 16px;
+				  font-family: monospace;
+				  height: 100%;
+				  width: 100%;
+				  display: flex;
+				  justify-content: center;
+				  align-items: center;
+				  color: #e4bb68;
 				}
 				
-				small {
-					font-size: 0.25em;
+				.string {
+				  display: flex;
+				  flex-direction: column;
+				  text-align: center;
+				  animation: move 4s infinite;
+				}
+				
+				.greeting {
+				  position: relative;
+				  top: 1.75em;
+				  animation: white-out 5s infinite;
+				}
+				
+				.closure::after {
+				  content: '';
+				  position: absolute;
+				  height: 2em;
+				  width: 5.5em;
+				  background: #282c34;
+				  transform: translate(-6.5em, 1.1em);
+				  border: 1px solid red;
+				}
+				
+				.closure::before {
+				  content: '';
+				  position: absolute;
+				  height: 2em;
+				  width: 5.5em;
+				  background: #282c34;
+				  transform: translate(-5em, -2em);
+				  border: 1px solid blue; 
+				}
+				
+				.en {
+				  color: #fa8231;
+				}
+				
+				.es {
+				  color: white;
+				}
+				
+				.de {
+				  color: #c678dd;
+				}
+				
+				.it {
+				  color: #a9b0bd;
+				}
+				
+				@keyframes move {
+				  25% {
+				    transform: translatey(0em);
+				    opacity: 1;
+				  }
+				  75% {
+				    transform: translatey(-3.45em);
+				  }
 				}
 			</style>
-			<div class="container">
-				<h1>Santiago "Momo" Marín<br/><small>not a programmer</small></h1>
-			</div>
+
+			<section>
+				<p>console<span style="color:white;">.</span><span style="color:#61afef;">log</span>("</p>
+				<div class="string">
+				  <p class="greeting en">Hello World!</p>
+				  <p class="greeting es">¡Hola Mundo!</p> 
+				</div>
+				<h1 class="closure">");</h1>
+			</section>
 		</div>
 	</foreignObject>
 </svg>

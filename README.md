@@ -1,13 +1,17 @@
 <div align="center">
-	<br>
-	<a href="https://raw.githubusercontent.com/stgogm/stgogm/master/header.svg">
-		<img src="header.svg" width="800" height="300" />
-	</a>
-	<br>
-	<small>Inspired by: <a href="https://github.com/sindresorhus/css-in-readme-like-wat">https://github.com/sindresorhus/css-in-readme-like-wat</a></small>
+	<div>
+		<a href="https://raw.githubusercontent.com/stgogm/stgogm/master/header.svg">
+			<img src="header.svg" width="800" height="300" />
+		</a>
+	</div>
+	<hr />
+	<div>
+		Inspired by: <a href="https://github.com/sindresorhus/css-in-readme-like-wat">https://github.com/sindresorhus/css-in-readme-like-wat</a>
+		 - Original idea by: <a href="https://codepen.io/pokecoder/pen/YzxmMrz">https://codepen.io/pokecoder/pen/YzxmMrz</a>
+	</div>
 </div>
 
-<hr>
+<hr />
 
 <div align="center">
 	<a href="https://www.linkedin.com/in/stgogm">
@@ -26,7 +30,6 @@
 		<img alt="DEV Community Profile" src="https://img.shields.io/badge/dev.to-%23000000.svg?&style=for-the-badge&logo=dev.to&logoColor=white" />
 	</a>
 </div>
-<br />
 <div align="center">
 	<img alt="nodejs" src="https://img.shields.io/badge/node.js_-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" />
 	&nbsp;

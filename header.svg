@@ -24,61 +24,60 @@
 				.greeting {
 				  position: relative;
 				  top: 1.75em;
-				  animation: white-out 5s infinite;
-				}
-				
-				.closure::after {
-				  content: '';
-				  position: absolute;
-				  height: 2.2em;
-				  width: 5.5em;
-				  background: #282c34;
-				  transform: translate(-6.5em, 1.1em);
-				}
-				
-				.closure::before {
-				  content: '';
-				  position: absolute;
-				  height: 2em;
-				  width: 5.5em;
-				  background: #282c34;
-				  transform: translate(-5em, -2em);
 				}
 				
 				.en {
 				  color: #fa8231;
+					animation: fade-out-in 4s infinite;
 				}
 				
 				.es {
 				  color: white;
-				}
-				
-				.de {
-				  color: #c678dd;
-				}
-				
-				.it {
-				  color: #a9b0bd;
+					animation: fade-in-out 4s infinite;
+					opacity: 0;
 				}
 				
 				@keyframes move {
 				  25% {
 				    transform: translatey(0em);
-				    opacity: 1;
 				  }
 				  75% {
 				    transform: translatey(-3.45em);
 				  }
 				}
+				
+				@keyframes fade-out-in {
+				  25% {
+						opacity: 1;
+				  }
+					75% {
+						opacity: 0;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+
+				@keyframes fade-in-out {
+				  25% {
+						opacity: 0;
+				  }
+					75% {
+						opacity: 1;
+					}
+					100% {
+						opacity: 0;
+					}
+				}
 			</style>
 
 			<section>
-				<p>console<span style="color:white;">.</span><span style="color:#61afef;">log</span>("</p>
+				<p>console<span style="color:white;">.</span><span style="color:#61afef;">log</span>(</p>
 				<div class="string">
-				  <p class="greeting en">Hello World!</p>
-				  <p class="greeting es">¡Hola Mundo!</p> 
+				  <p class="greeting en">"Hello World!"</p>
+				  <p class="greeting es">"¡Hola Mundo!"</p> 
 				</div>
-				<h1 class="closure">");</h1>
+				<p class="closure">);</p>
 			</section>
 		</div>
 	</foreignObject>
